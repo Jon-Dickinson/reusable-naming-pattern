@@ -1,11 +1,80 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
     <title>Reusable Naming Pattern</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    <h1>public/ Reusable Naming Pattern A</h1>
+  </head>
+  <body class="bg-top-1c2542-bottom-082480">
+    <div class="if-base-wrapper direction--column">
+      <div class="flex-mid-container justify--center align--center direction--column h-100vh max-w-768 border-1-white--25 border-r-4">
+        <div class="horizontal-inline-flex border-1-white--25 border-r-4">
+          <div class="vertical-inline-flex margin-all-10 border-1-white--25 border-r-4">
+            <p class="pad-all-20 font-s--18 bg-f9f9f909">base</p>
+<xmp>
+.if-base-wrapper {
+  position: relative;
+  display: inline-flex;
+  width: 100%; 
+} 
+
+</xmp>
+          </div>
+          <div class="vertical-inline-flex margin-all-10 border-1-white--25 border-r-4">
+            <p class="pad-all-20 font-s--18 bg-f9f9f909">mid</p>
+<xmp>
+.flex-mid-container {
+  position: relative;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+} 
+
+</xmp>
+          </div>
+        </div>
+        <div class="horizontal-inline-flex border-1-white--25">
+          <div class="vertical-inline-flex margin-all-10 border-1-white--25 border-r-4">
+            <p class="pad-all-20 font-s--18 bg-f9f9f909">directional</p>
+<xmp> 
+.vertical-inline-flex {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+} 
+
+.horizontal-inline-flex {
+  position: relative;
+  display: inline-flex;
+  width: 100%;
+} 
+
+</xmp>
+          </div>
+          <div class="vertical-inline-flex margin-all-10 border-1-white--25 border-r-4">
+            <p class="pad-all-20 font-s--18 bg-f9f9f909">content</p>
+<xmp>
+.if-content-panel {
+  position: relative;
+  display: inline-flex;
+}
+
+.flex-content-panel {
+  position: relative;
+  display: flex;
+} 
+
+</xmp>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="/bundle.js"></script>
-</body>
+  </body>
 </html>
